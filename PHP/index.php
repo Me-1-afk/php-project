@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php
     session_start();
     echo " main uodate";
@@ -21,7 +19,6 @@ echo " third update";
         }
     }
 ?>
->>>>>>> 2e660d44ac1cdef34dca14080d265d7bc1361153
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,12 +28,8 @@ echo " third update";
 </head>
 <body>
     <?php  
-        echo "Hello, World!";
-        echo "<br>";
-        echo "Hello, World!";
-        echo "<br>";
-        echo "Hello, World!";
-        echo"te3dil";
+        echo "stop editing";
+        
     ?>
 <form method="post" action="">
     Username:<input type="text" name="username">
