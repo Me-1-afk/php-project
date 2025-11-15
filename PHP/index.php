@@ -35,6 +35,7 @@
     <button type="submit">Submit</button>
 </form>
     <h2>All Users:</h2>
+    <h1>hsuada</h1>
     <ul>
         <?php
             if ($error) {
