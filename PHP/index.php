@@ -7,7 +7,7 @@
 echo " second update";
     $error = '';
     $message = '';
-
+echo " third update";
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $username = trim($_POST['username'] ?? '');
 
