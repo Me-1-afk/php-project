@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+=======
+<?php
+    session_start();
+    echo " main uodate";
+    if (!isset($_SESSION["allusers"])) {
+        $_SESSION["allusers"] = array();
+    }
+echo " second update";
+    $error = '';
+    $message = '';
+echo " third update";
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $username = trim($_POST['username'] ?? '');
+
+        if ($username === '') {
+            $error = 'Please enter a username.';
+        } else {
+            $_SESSION['allusers'][] = $username;
+            $message = 'Username saved.';
+        }
+    }
+?>
+>>>>>>> 2e660d44ac1cdef34dca14080d265d7bc1361153
 <!DOCTYPE html>
 <html lang="en">
 <head>
