@@ -43,14 +43,18 @@ echo " third update";
             if ($error) {
                 echo "<p style=\"color:red;\">$error</p>";
             }
-
-            if ($message) {
-                echo "<p style=\"color:green;\">$message</p>";
-            }
-            foreach ($_SESSION["allusers"] as $user) {
+                foreach ($users as $user) {
                 echo "<li>" . htmlspecialchars($user) . "</li>";
             }
         ?>
     </ul>
+<<<<<<< HEAD
+=======
+    
+<form action="index.php" method="post">
+    <input type="text" name="name" placeholder="Enter your name">
+    <input type="submit" value="Submit">
+</form>
+>>>>>>> 7e3da0457472f8799c5f90a506dd51402bf826b3
 </body>
 </html>
