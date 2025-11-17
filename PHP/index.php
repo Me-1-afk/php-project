@@ -48,5 +48,16 @@ echo " third update";
             }
         ?>
     </ul>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    
+<form action="index.php" method="post">
+    <input type="text" name="name" placeholder="Enter your name">
+    <input type="submit" value="Submit">
+</form>
+>>>>>>> 7e3da0457472f8799c5f90a506dd51402bf826b3
+>>>>>>> 4d39a79847893ec45beef0f0b15ea88af779cffc
 </body>
 </html>
